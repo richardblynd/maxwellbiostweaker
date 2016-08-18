@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\Instalações\Placa de Vídeo\Overclock\gtx-970-980-power-limiter-mod\Maxwe ll Bios Tweaker 1.36\MaxwellBiosTweaker.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D812052-8909-4E24-939C-68073A73E7BC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>MaxwellBiosTweaker</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.3.6.0</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BabelAttribute.cs" />
+    <Compile Include="CE000.cs" />
+    <Compile Include="CE001.cs" />
+    <Compile Include="CE002.cs" />
+    <Compile Include="CE003.cs" />
+    <Compile Include="CE004.cs" />
+    <Compile Include="CE005.cs" />
+    <Compile Include="CE006.cs" />
+    <Compile Include="CE007.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE008.cs" />
+    <Compile Include="CE009.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE00A.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE00B.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE00C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE00D.cs" />
+    <Compile Include="CE00E.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE00F.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE010.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE011.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE012.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE013.cs" />
+    <Compile Include="CE014.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE015.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE016.cs" />
+    <Compile Include="CE017.cs" />
+    <Compile Include="CE018.cs" />
+    <Compile Include="CE019.cs" />
+    <Compile Include="CE01A.cs" />
+    <Compile Include="CE01B.cs" />
+    <Compile Include="CE01C.cs" />
+    <Compile Include="CE01D.cs" />
+    <Compile Include="CE01E.cs" />
+    <Compile Include="CE01F.cs" />
+    <Compile Include="CE020.cs" />
+    <Compile Include="CE021.cs" />
+    <Compile Include="CE022.cs" />
+    <Compile Include="CE023.cs" />
+    <Compile Include="CE024.cs" />
+    <Compile Include="CE025.cs" />
+    <Compile Include="CE026.cs" />
+    <Compile Include="CE027.cs" />
+    <Compile Include="CE028.cs" />
+    <Compile Include="CE029.cs" />
+    <Compile Include="CE02A.cs" />
+    <Compile Include="CE02B.cs" />
+    <Compile Include="CE02C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE02D.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE02E.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE02F.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CE030.cs" />
+    <Compile Include="CE031.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE032.cs" />
+    <Compile Include="CE033.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE034.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CE035.cs" />
+    <Compile Include="CE036.cs" />
+    <Compile Include="MaxwellBiosTweaker\frmMBT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaxwellBiosTweaker\Controls\BaseBoostControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MaxwellBiosTweaker\Helper\CallerMemberNameAttribute.cs" />
+    <Compile Include="MaxwellBiosTweaker\Helper\ExtensionAttribute.cs" />
+    <Compile Include="MaxwellBiosTweaker\Properties\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CE015.resx">
+      <DependentUpon>CE015.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaxwellBiosTweaker\Controls\BaseBoostControl.resx" />
+    <EmbeddedResource Include="MaxwellBiosTweaker\frmCompare.resx" />
+    <EmbeddedResource Include="MaxwellBiosTweaker\frmMBT.resx" />
+    <EmbeddedResource Include="MaxwellBiosTweaker\Properties\Resources.resx" />
+    <EmbeddedResource Include="CE007.resx" />
+    <EmbeddedResource Include="CE009.resx" />
+    <EmbeddedResource Include="CE00A.resx" />
+    <EmbeddedResource Include="CE00B.resx" />
+    <EmbeddedResource Include="CE00C.resx" />
+    <EmbeddedResource Include="CE00E.resx" />
+    <EmbeddedResource Include="CE00F.resx" />
+    <EmbeddedResource Include="CE010.resx" />
+    <EmbeddedResource Include="CE011.resx" />
+    <EmbeddedResource Include="CE012.resx" />
+    <EmbeddedResource Include="CE014.resx" />
+    <EmbeddedResource Include="CE02C.resx" />
+    <EmbeddedResource Include="CE02D.resx" />
+    <EmbeddedResource Include="CE02E.resx" />
+    <EmbeddedResource Include="CE031.resx" />
+    <EmbeddedResource Include="CE033.resx" />
+    <EmbeddedResource Include="CE034.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
